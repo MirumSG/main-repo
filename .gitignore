@@ -1,0 +1,14 @@
+templates/component-test.html
+build
+*.sublime-workspace
+html/
+stage/
+dist/
+*.sublime-project
+npm-debug.log
+.sass-cache
+.idea
+api-docs
+bower_components
+node_modules
+.settings
