@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.browse{
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.browse .mdl-textfield{
+  width: 70%;
+  margin-right: 5%;
+}
+
+button#source,
+button#target{
+  width: 20%;
+}

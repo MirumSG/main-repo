@@ -1,7 +1,6 @@
 templates/component-test.html
 build
 *.sublime-workspace
-html/
 stage/
 dist/
 *.sublime-project
