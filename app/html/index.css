@@ -8,11 +8,13 @@ html {
 
 html,
 body {
-	padding: 0;
-	margin: 0;
+  font-family: 'Roboto','Helvetica','Arial',sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
-.browse{
+.page-content{
+  position: relative;
   padding: 20px;
   width: 100%;
   height: 100%;
@@ -26,4 +28,80 @@ body {
 button#source,
 button#target{
   width: 20%;
+}
+
+.mdl-data-table{
+  width: 100%;
+}
+
+.bottom-right-wrapper{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+
+ul.task-list{
+  list-style: none;
+  padding: 0 0 60px 0;
+  margin: 0;
+}
+
+ul.task-list li{
+  border-bottom: 1px solid #333;
+}
+
+ul.task-list li:hover{
+  background-color: #ffeeee;
+}
+
+ul.task-list li a{
+  float: left;
+  display: block;
+  width: 90%;
+  padding: 10px;
+  color: #000;
+  text-decoration: none;
+}
+
+
+ul.task-list li .edit-detele {
+  float: left;
+  display: block;
+  width: 10%;
+  padding: 6px 0;
+}
+
+.float-bottom {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
 }
