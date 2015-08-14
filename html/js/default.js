@@ -5,3 +5,4 @@ exports.install = function(framework) {
 
 
 //hello world
+//hello test2
