@@ -7,3 +7,6 @@ exports.install = function(framework) {
 //hello world
 //hello test2
 //hbello3
+//tetetet er wer ewrew r
+//we rwerwer
+//we rwe rwe
